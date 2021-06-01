@@ -10,6 +10,7 @@
 		B67DC2B2266648C90021F45C /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67DC2B1266648C90021F45C /* LandmarkRow.swift */; };
 		B67DC2B426664F580021F45C /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67DC2B326664F580021F45C /* LandmarkList.swift */; };
 		B67DC2B6266650FD0021F45C /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67DC2B5266650FD0021F45C /* LandmarkDetail.swift */; };
+		B67DC2B826667E670021F45C /* FavoriteButon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67DC2B726667E670021F45C /* FavoriteButon.swift */; };
 		B69CFEB926650EAB00764F9A /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CFEB826650EAB00764F9A /* LandmarksApp.swift */; };
 		B69CFEBB26650EAB00764F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CFEBA26650EAB00764F9A /* ContentView.swift */; };
 		B69CFEBD26650EB400764F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69CFEBC26650EB400764F9A /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		B67DC2B1266648C90021F45C /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		B67DC2B326664F580021F45C /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		B67DC2B5266650FD0021F45C /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		B67DC2B726667E670021F45C /* FavoriteButon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButon.swift; sourceTree = "<group>"; };
 		B69CFEB526650EAB00764F9A /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69CFEB826650EAB00764F9A /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		B69CFEBA26650EAB00764F9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B67DC2B926668B2C0021F45C /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				B67DC2B1266648C90021F45C /* LandmarkRow.swift */,
+				B67DC2B326664F580021F45C /* LandmarkList.swift */,
+				B67DC2B5266650FD0021F45C /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		B67DC2BA26668B790021F45C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B69CFEE32665569F00764F9A /* CircleImage.swift */,
+				B67DC2B726667E670021F45C /* FavoriteButon.swift */,
+				B69CFEE52665583E00764F9A /* MapView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		B69CFEAC26650EAB00764F9A = {
 			isa = PBXGroup;
 			children = (
@@ -151,12 +173,9 @@
 		B69CFEEB26657C9F00764F9A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B69CFEE52665583E00764F9A /* MapView.swift */,
 				B69CFEBA26650EAB00764F9A /* ContentView.swift */,
-				B69CFEE32665569F00764F9A /* CircleImage.swift */,
-				B67DC2B1266648C90021F45C /* LandmarkRow.swift */,
-				B67DC2B326664F580021F45C /* LandmarkList.swift */,
-				B67DC2B5266650FD0021F45C /* LandmarkDetail.swift */,
+				B67DC2BA26668B790021F45C /* Helper */,
+				B67DC2B926668B2C0021F45C /* Landmarks */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -318,6 +337,7 @@
 			files = (
 				B69CFEBB26650EAB00764F9A /* ContentView.swift in Sources */,
 				B69CFEE62665583E00764F9A /* MapView.swift in Sources */,
+				B67DC2B826667E670021F45C /* FavoriteButon.swift in Sources */,
 				B69CFEB926650EAB00764F9A /* LandmarksApp.swift in Sources */,
 				B69CFEE42665569F00764F9A /* CircleImage.swift in Sources */,
 				B67DC2B6266650FD0021F45C /* LandmarkDetail.swift in Sources */,
